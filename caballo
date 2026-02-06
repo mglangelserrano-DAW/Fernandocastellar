@@ -1,0 +1,25 @@
+public class caballo{
+private String Sonido;
+    private String color; 
+    private int edad; 
+    public Comida(String Sonido, String color, int edad) {
+        this.Sonido = Sonido;
+        this.color = color ;
+        this.edad = edad;
+    }
+
+    public String getSonido() {
+        return Sonido;
+    }
+
+    public String getcolor() {
+        return color;
+    }
+
+    public int getedad() {
+        return edad;
+    }
+    public void micaballo() {
+        System.out.println("Sonido: " + Sonido + ", color: " + color + ", edad: " + edad );
+    }
+}
